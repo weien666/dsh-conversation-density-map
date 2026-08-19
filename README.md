@@ -60,12 +60,12 @@ dsh-conversation-density-map/
 
 ## 下载与安装
 
-> DSH 的静态插件通过“插件目录 + junction 指向 + 配置注册一行”挂载，**无需 npm install**。以下以 Windows 为例，`<你的用户名>` 请替换为你的实际用户名。插件本体是仓库根目录的 3 个源码文件（client.js / index.js / package.json）+ cordis.patch.yml。
+> DSH 的静态插件通过“插件目录 + junction 指向 + 配置注册一行”挂载，**无需 npm install**。以下以 Windows 为例，插件本体是仓库根目录的 3 个源码文件（client.js / index.js / package.json）+ cordis.patch.yml。
 
 ### 方式 A（推荐）：一行命令安装（bundle 模式，需要 pnpm）
 
 ```bat
-dsh plugin --profile web add github:<你的用户名>/dsh-conversation-density-map
+dsh plugin --profile web add github:weien666/dsh-conversation-density-map
 ```
 
 安装会自动把插件追加进 `dsh.profile.bundles` 并应用内置补丁（cordis.patch.yml），**无需手动 insert**；只安装源码文件，**不会下载 docs 中的 GIF**。安装后重启 DSH（`dsh web restart`）并硬刷新浏览器（`Ctrl+Shift+R`）生效。
