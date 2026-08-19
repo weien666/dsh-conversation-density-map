@@ -60,7 +60,7 @@ dsh-conversation-density-map/
 
 ## 下载与安装
 
-> DSH 的静态插件通过“插件目录 + junction 指向 + 配置注册一行”挂载，**无需 npm install**。以下以 Windows 为例，插件本体是仓库根目录的 3 个源码文件（client.js / index.js / package.json）+ cordis.patch.yml。
+> DSH 静态插件是通过“把插件文件放进 DSH 的 profile + 让它注册生效”两步安装，**无需 npm install**。以下以 Windows 为例，插件本体是仓库根目录的 3 个源码文件（client.js / index.js / package.json）+ cordis.patch.yml。
 
 ### 方式 A（推荐）：一行命令安装（bundle 模式，需要 pnpm）
 
