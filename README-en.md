@@ -1,5 +1,12 @@
 # dsh-conversation-density-map ｜ Right-side conversation history tick labels
 
+![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+![Static Badge](https://img.shields.io/badge/DSH-web-0000E0)  
+安装：`dsh plugin --profile web add github:weien666/dsh-conversation-density-map`
+
+<p>
+  <a href="README.md">简体中文</a> | <strong>English</strong>
+</p>
 A minimal **conversation density map** plugin for **DeepSeek Harness**: within a fixed-height strip on the right side of the chat area, it uses small ticks to intuitively show the distribution, lengths, and current position of the entire conversation. Click any tick to smoothly jump to the corresponding turn.
 
 Pure frontend, zero dependencies, no build step — the actual plugin consists of only **3 source files**.
