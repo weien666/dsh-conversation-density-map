@@ -5,7 +5,7 @@
 安装：`dsh plugin --profile web add github:weien666/dsh-conversation-density-map`
 
 <p>
-  <a href="README.md">简体中文</a> | <a href="README-en.md">English</a>
+  <strong>简体中文</strong> | <a href="README-en.md">English</a>
 </p>
 
 一个为 **DeepSeek Harness** 打造的极简 **“对话密度地图(右侧历史对话标签)”** 插件：在聊天区右侧的固定高度内，用小刻度直观展示整段对话的 **分布** 、 **长短** 与 **当前位置**，点击任意刻度即可 **平滑跳转** 到对应对话。
