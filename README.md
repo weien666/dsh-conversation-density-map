@@ -1,10 +1,14 @@
 # dsh-conversation-density-map ｜ 右侧历史对话标签
 
-安装：```bat
-dsh plugin --profile web add github:weien666/dsh-conversation-density-map
-```
-[简体中文](README.md) | [English](README-en.md)
-一个为 **DeepSeek Harness** 打造的极简“对话密度地图”插件：在聊天区右侧的固定高度内，用小刻度直观展示整段对话的分布、长短与当前位置，点击任意刻度即可平滑跳转到对应对话。
+![Static Badge](https://img.shields.io/badge/license-MIT-blue)
+![Static Badge](https://img.shields.io/badge/DSH-web-0000E0)  
+安装：`dsh plugin --profile web add github:weien666/dsh-conversation-density-map`
+
+<p>
+  <a href="README.md">简体中文</a> | <a href="README-en.md">English</a>
+</p>
+
+一个为 **DeepSeek Harness** 打造的极简 **“对话密度地图(右侧历史对话标签)”** 插件：在聊天区右侧的固定高度内，用小刻度直观展示整段对话的 **分布** 、 **长短** 与 **当前位置**，点击任意刻度即可 **平滑跳转** 到对应对话。
 
 纯前端、零依赖、无需构建——真正的插件本体只有 3 个源文件。
 
