@@ -72,7 +72,7 @@ dsh plugin --profile web add github:<你的用户名>/dsh-conversation-density-m
 
 ### 方式 B：从 Releases 下载插件 ZIP
 
-1. 打开本仓库 **Releases** 页面，下载最新版 `dsh-conversation-density-map-vX.Y.Z.zip` —— **里面只有 3 个源码文件 + cordis.patch.yml，无 GIF 杂物**；
+1. 打开本仓库 **Releases** 页面，下载最新版 `dsh-conversation-density-map-vX.Y.Z.zip` —— **里面只有 3 个源码文件，无 GIF 杂物**；
 2. 解压到任意目录，例如 `D:\plugins\dsh-conversation-density-map`（解压后含 3 个源码文件的文件夹就是“插件目录”）；
 3. 在 DSH 配置目录的 `node_modules` 下创建 junction 指向它：
 
