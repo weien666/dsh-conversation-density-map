@@ -19,18 +19,27 @@
 - **主题跟随**：颜色取自 Harness 现有主题变量，深浅色自动适配。
 
 ## 演示
-
-**常规窗口 vs 最大化窗口**：右侧刻度横向长度随对话规模自动变化（常规窗口保持等长；最大化后刻度代表对话内容长度）。
-
-![常规与最大化切换](docs/demo-window-length.gif)
-
-**常规窗口 · 密集对话的悬停疏散**：对话繁多、刻度堆砌时，鼠标靠近右缘，标签自动上下拉开，便于点击跳转。
-
-![常规窗口疏散](docs/demo-spread-regular.gif)
-
-**最大化窗口 · 密集对话的悬停疏散**：同样场景在最大化窗口下的纵向疏散效果。
-
-![最大化窗口疏散](docs/demo-spread-maximized.gif)
+<table width="100%">
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <b>常规窗口 vs 最大化窗口</b><br>
+      右侧刻度横向长度随对话规模自动变化<br>
+      （常规窗口保持等长；最大化后刻度代表对话内容长度）<br><br>
+      <img src="docs/demo-window-length.gif" alt="常规与最大化切换" width="100%" />
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>常规窗口 · 密集对话的悬停疏散</b><br>
+      对话繁多、刻度堆砌时，鼠标靠近右缘<br>
+      标签自动上下拉开，便于点击跳转<br><br>
+      <img src="docs/demo-spread-regular.gif" alt="常规窗口疏散" width="100%" />
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>最大化窗口 · 密集对话的悬停疏散</b><br>
+      同样场景在最大化窗口下的纵向疏散效果<br><br><br>
+      <img src="docs/demo-spread-maximized.gif" alt="最大化窗口疏散" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ## 目录结构
 
