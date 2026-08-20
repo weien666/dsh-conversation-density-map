@@ -1,5 +1,6 @@
 # dsh-conversation-density-map ｜ 右侧历史对话标签
 
+[![Awesome DSH Plugin](https://awesome-dsh-plugin.com/badge.svg)](https://awesome-dsh-plugin.com)
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue)
 ![Static Badge](https://img.shields.io/badge/DSH-web-0000E0)  
 安装：`dsh plugin --profile web add github:weien666/dsh-conversation-density-map`
